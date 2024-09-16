@@ -14,6 +14,8 @@ module.exports = {
       },
       colors: {
         "custom-orange": "#FD6F00",
+        "custom-light-gray": "#EDECEC",
+        "custom-light-orange": "#F8F8F8",
       },
     },
   },

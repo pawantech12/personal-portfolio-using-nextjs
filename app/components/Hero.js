@@ -29,7 +29,7 @@ export const Hero = () => {
             height="317"
             alt="Hero img"
           />
-          <div className="absolute top-[10%] left-[5%] bg-custom-orange opacity-60 w-80 h-20"></div>
+          <div className="absolute top-[12%] left-[12%] bg-custom-orange opacity-60 w-72 h-16"></div>
         </figure>
       </div>
     </section>
