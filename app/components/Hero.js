@@ -3,16 +3,15 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <section className="my-3 px-20 flex items-center">
-      <div className="w-4/6">
+    <section className="my-3 px-20 flex justify-around max-[1240px]:text-center  items-center gap-5">
+      <div className="w-1/2 max-[816px]:w-11/12">
         <span className="text-2xl font-semibold">Hi i am</span>
-        <h1 className="text-custom-orange text-[32px] font-semibold">
-          Pawan Kumavat
-        </h1>
-        <h3 className="text-[7rem] font-semibold leading-[7rem]">
-          UI & UX <br /> <span className="ms-[10rem]">Designer</span>
+        <h1 className="text-custom-orange text-[32px] font-semibold">Mumair</h1>
+        <h3 className="text-[5rem] max-[816px]:text-[4rem] font-semibold leading-[6rem] max-[816px]:leading-[4.5rem]">
+          UI & UX <br />{" "}
+          <span className="ms-[10rem] max-[1240px]:ms-0">Designer</span>
         </h3>
-        <p className="font-normal text-[21px] mt-10 mb-6">
+        <p className="font-normal text-lg mt-10 mb-6">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt dolores
           eius quos dicta laudantium. Expedita harum odio architecto quia in
           minus iste quae reiciendis adipisci.
@@ -21,7 +20,7 @@ export const Hero = () => {
           Hire me
         </button>
       </div>
-      <div className="w-2/6">
+      <div className="w-2/6 max-[1240px]:hidden">
         <figure className="relative">
           <Image
             src="/images/hero.png"

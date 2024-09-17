@@ -6,7 +6,7 @@ const Portfolio = () => {
     <section className="px-24 mt-[8rem]">
       <div className="text-center flex flex-col items-center">
         <h4 className="text-4xl font-semibold">My Portfolio</h4>
-        <p className="w-1/2 mt-4">
+        <p className="w-1/2 mt-4 max-[1240px]:w-3/4">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus netus in. Aliquet donec morbi convallis pretium
         </p>
@@ -41,7 +41,7 @@ const Portfolio = () => {
         </ul>
       </div>
       <div className="mt-[3rem]">
-        <ul className="flex justify-center gap-10">
+        <ul className="grid grid-cols-4 max-[1120px]:grid-cols-3 max-[940px]:grid-cols-2 max-[650px]:grid-cols-1 gap-10">
           <li>
             <div>
               <figure className="mb-2">
@@ -50,10 +50,11 @@ const Portfolio = () => {
                   alt="Portfolio img"
                   width={300}
                   height={300}
+                  className="w-full"
                 />
               </figure>
               <span className="text-custom-orange text-sm">Web Design</span>
-              <h4 className="text-lg font-semibold">
+              <h4 className="text-lg font-semibold max-[912px]:text-xl">
                 AirCalling Landing Page Design{" "}
               </h4>
             </div>
@@ -66,10 +67,11 @@ const Portfolio = () => {
                   alt="Portfolio img"
                   width={300}
                   height={300}
+                  className="w-full"
                 />
               </figure>
               <span className="text-custom-orange text-sm">Web Design</span>
-              <h4 className="text-lg font-semibold">
+              <h4 className="text-lg font-semibold max-[912px]:text-xl">
                 Business Landing Page Design{" "}
               </h4>
             </div>
@@ -82,10 +84,13 @@ const Portfolio = () => {
                   alt="Portfolio img"
                   width={300}
                   height={300}
+                  className="w-full"
                 />
               </figure>
               <span className="text-custom-orange text-sm">Web Design</span>
-              <h4 className="text-lg font-semibold">Ecom Web Page Design </h4>
+              <h4 className="text-lg font-semibold  max-[912px]:text-xl">
+                Ecom Web Page Design{" "}
+              </h4>
             </div>
           </li>
         </ul>

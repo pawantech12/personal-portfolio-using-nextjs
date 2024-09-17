@@ -6,13 +6,13 @@ const Service = () => {
     <section className="px-24 mt-[7rem]">
       <div className="text-center flex flex-col items-center">
         <h4 className="text-4xl font-semibold">Services</h4>
-        <p className="w-1/2 mt-4">
+        <p className="w-1/2 mt-4 max-[1240px]:w-3/4">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus netus in. Aliquet donec morbi convallis pretium
         </p>
       </div>
       <div className="mt-[3rem]">
-        <ul className="grid grid-cols-4 gap-5">
+        <ul className="grid grid-cols-4 gap-5 max-[1090px]:grid-cols-2 max-[640px]:grid-cols-1">
           <li className="bg-custom-light-orange px-4 py-7 rounded-xl">
             <div className="text-center flex flex-col items-center justify-center gap-2">
               <figure className="flex justify-center items-center">
