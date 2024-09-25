@@ -3,10 +3,10 @@ import React from "react";
 
 const Service = () => {
   return (
-    <section className="px-24 mt-[7rem]">
+    <section className="px-24 mt-[7rem] max-[1240px]:px-5">
       <div className="text-center flex flex-col items-center">
         <h4 className="text-4xl font-semibold">Services</h4>
-        <p className="w-1/2 mt-4 max-[1240px]:w-3/4">
+        <p className="w-1/2 mt-4 max-[1240px]:w-3/4 max-[450px]:w-11/12">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus netus in. Aliquet donec morbi convallis pretium
         </p>

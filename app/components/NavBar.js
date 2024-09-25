@@ -14,7 +14,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <header className="flex justify-between items-center py-10 px-20">
+      <header className="flex justify-between items-center py-10 px-20 max-[1348px]:px-5">
         <div>
           <figure>
             <Image src="/images/logo.png" width="165" height="165" alt="logo" />
@@ -58,11 +58,11 @@ export const NavBar = () => {
 
       {/* Sidebar for Mobile View */}
       <div
-        className={`fixed top-0 right-0 h-full w-[350px] bg-white z-50 transition-transform duration-300 transform ${
+        className={`fixed top-0 right-0 h-full w-[320px] bg-white z-50 transition-transform duration-300 transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex items-center justify-between px-5 mt-8">
+        <div className="flex items-center justify-between px-5 mt-10">
           <figure>
             <Image src="/images/logo.png" width="165" height="165" alt="logo" />
           </figure>
@@ -77,27 +77,27 @@ export const NavBar = () => {
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/about" onClick={toggleSidebar}>
+            <Link href="/" onClick={toggleSidebar}>
               About Me
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/services" onClick={toggleSidebar}>
+            <Link href="/" onClick={toggleSidebar}>
               Services
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/projects" onClick={toggleSidebar}>
+            <Link href="/" onClick={toggleSidebar}>
               Projects
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/testimonials" onClick={toggleSidebar}>
+            <Link href="/" onClick={toggleSidebar}>
               Testimonials
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/contact" onClick={toggleSidebar}>
+            <Link href="/" onClick={toggleSidebar}>
               Contact
             </Link>
           </li>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section className="px-24 mt-[8rem]">
+    <section className="px-24 mt-[8rem] max-[1240px]:px-5">
       <div className="text-center flex flex-col items-center">
         <h4 className="text-4xl font-semibold">My Portfolio</h4>
         <p className="w-1/2 mt-4 max-[1240px]:w-3/4">
@@ -12,7 +12,7 @@ const Portfolio = () => {
         </p>
       </div>
       <div className="mt-[2rem]">
-        <ul className="flex justify-center gap-4 font-medium">
+        <ul className="flex justify-center gap-4 font-medium overflow-x-auto whitespace-nowrap scrollbar-hide">
           <li>
             <button className="py-1 px-3 rounded-md bg-custom-light-orange border border-gray-200 hover:bg-custom-orange transition-all ease-in-out duration-200 hover:text-white hover:border-custom-orange">
               All

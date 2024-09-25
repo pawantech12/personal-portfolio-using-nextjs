@@ -3,7 +3,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <section className="my-3 px-20 flex justify-around max-[1240px]:text-center  items-center gap-5">
+    <section className="my-3 px-20 flex justify-around max-[1240px]:text-center max-[1240px]:px-5 items-center gap-5">
       <div className="w-1/2 max-[816px]:w-11/12">
         <span className="text-2xl font-semibold">Hi i am</span>
         <h1 className="text-custom-orange text-[32px] font-semibold">Mumair</h1>
