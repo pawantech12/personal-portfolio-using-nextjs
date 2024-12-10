@@ -24,26 +24,59 @@ export const NavBar = () => {
         <nav className="hidden min-[1348px]:flex gap-4 items-center text-xl">
           <ul className="flex items-center gap-3">
             <li className="py-[10px] px-[14px]">
-              <Link href="/">Home</Link>
+              <Link
+                href="/"
+                className="hover:text-orange-400 transition-all ease-in-out duration-200"
+              >
+                Home
+              </Link>
             </li>
             <li className="py-[10px] px-[14px]">
-              <Link href="/about">About Me</Link>
+              <Link
+                href="/about"
+                className="hover:text-orange-400 transition-all ease-in-out duration-200"
+              >
+                About Me
+              </Link>
             </li>
             <li className="py-[10px] px-[14px]">
-              <Link href="/services">Services</Link>
+              <Link
+                href="/services"
+                className="hover:text-orange-400 transition-all ease-in-out duration-200"
+              >
+                Services
+              </Link>
             </li>
             <li className="py-[10px] px-[14px]">
-              <Link href="/projects">Projects</Link>
+              <Link
+                href="/projects"
+                className="hover:text-orange-400 transition-all ease-in-out duration-200"
+              >
+                Projects
+              </Link>
             </li>
             <li className="py-[10px] px-[14px]">
-              <Link href="/testimonials">Testimonials</Link>
+              <Link
+                href="/testimonials"
+                className="hover:text-orange-400 transition-all ease-in-out duration-200"
+              >
+                Testimonials
+              </Link>
             </li>
             <li className="py-[10px] px-[14px]">
-              <Link href="/contact">Contact</Link>
+              <Link
+                href="/contact"
+                className="hover:text-orange-400 transition-all ease-in-out duration-200"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
           <div>
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-[5px]">
+            <button
+              className="bg-custom-orange  text-white py-3 px-7 rounded-md shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl focus:ring-4 focus:ring-custom-orange/50 active:scale-95"
+              onClick={toggleSidebar}
+            >
               <Link href="/cv">Download CV</Link>
             </button>
           </div>
@@ -72,39 +105,63 @@ export const NavBar = () => {
         </div>
         <ul className="flex flex-col items-center gap-4 mt-8 text-[21px]">
           <li className="py-[10px] px-[14px]">
-            <Link href="/" onClick={toggleSidebar}>
+            <Link
+              href="/"
+              onClick={toggleSidebar}
+              className="hover:text-orange-400 transition-all ease-in-out duration-200"
+            >
               Home
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/" onClick={toggleSidebar}>
+            <Link
+              href="/"
+              onClick={toggleSidebar}
+              className="hover:text-orange-400 transition-all ease-in-out duration-200"
+            >
               About Me
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/" onClick={toggleSidebar}>
+            <Link
+              href="/"
+              onClick={toggleSidebar}
+              className="hover:text-orange-400 transition-all ease-in-out duration-200"
+            >
               Services
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/" onClick={toggleSidebar}>
+            <Link
+              href="/"
+              onClick={toggleSidebar}
+              className="hover:text-orange-400 transition-all ease-in-out duration-200"
+            >
               Projects
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/" onClick={toggleSidebar}>
+            <Link
+              href="/"
+              onClick={toggleSidebar}
+              className="hover:text-orange-400 transition-all ease-in-out duration-200"
+            >
               Testimonials
             </Link>
           </li>
           <li className="py-[10px] px-[14px]">
-            <Link href="/" onClick={toggleSidebar}>
+            <Link
+              href="/"
+              onClick={toggleSidebar}
+              className="hover:text-orange-400 transition-all ease-in-out duration-200"
+            >
               Contact
             </Link>
           </li>
         </ul>
         <div className="flex justify-center pt-8">
           <button
-            className="bg-orange-500 text-white px-6 py-2 rounded-[5px]"
+            className="bg-orange-500 text-white px-6 py-2 rounded-[5px] hover:bg-orange-200"
             onClick={toggleSidebar}
           >
             <Link href="/cv">Download CV</Link>

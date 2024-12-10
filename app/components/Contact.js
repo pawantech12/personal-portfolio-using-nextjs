@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="px-24 mt-[8rem] max-[1240px]:px-5 flex flex-col items-center">
+    <section className="px-24 my-[8rem] max-[1240px]:px-5 flex flex-col items-center">
       <div className="text-center flex flex-col items-center">
         <h4 className="text-4xl font-semibold">Lets Design Together</h4>
         <p className="w-1/2 mt-4 max-[450px]:w-11/12">
@@ -21,7 +21,7 @@ const Contact = () => {
           placeholder="Enter your Email"
           className="bg-custom-light-orange border border-gray-200 rounded-md px-4 py-3 w-[70%] max-[1010px]:w-full outline-none placeholder:text-sm"
         />
-        <button className="bg-custom-orange text-white rounded-md px-4 py-3">
+        <button className="bg-custom-orange text-white rounded-md px-4 py-3 shadow-lg hover:shadow-xl hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-400 active:scale-95 transition-all duration-200">
           Contact Me
         </button>
       </form>

@@ -3,7 +3,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <section className="my-3 px-20 flex justify-around max-[1240px]:text-center max-[1240px]:px-5 items-center gap-5">
+    <section className="my-3 px-20 py-6 flex justify-around max-[1240px]:text-center max-[1240px]:px-5 items-center gap-5">
       <div className="w-1/2 max-[816px]:w-11/12">
         <span className="text-2xl font-semibold">Hi i am</span>
         <h1 className="text-custom-orange text-[32px] font-semibold">Mumair</h1>
@@ -16,7 +16,7 @@ export const Hero = () => {
           eius quos dicta laudantium. Expedita harum odio architecto quia in
           minus iste quae reiciendis adipisci.
         </p>
-        <button className="bg-custom-orange text-[21px]  text-white py-3 px-11 rounded-md">
+        <button className="bg-custom-orange text-[21px] text-white py-3 px-11 rounded-md shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl focus:ring-4 focus:ring-custom-orange/50 active:scale-95">
           Hire me
         </button>
       </div>

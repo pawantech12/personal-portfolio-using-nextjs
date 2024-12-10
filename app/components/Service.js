@@ -3,7 +3,7 @@ import React from "react";
 
 const Service = () => {
   return (
-    <section className="px-24 mt-[7rem] max-[1240px]:px-5">
+    <section className="px-24 my-[7rem] max-[1240px]:px-5">
       <div className="text-center flex flex-col items-center">
         <h4 className="text-4xl font-semibold">Services</h4>
         <p className="w-1/2 mt-4 max-[1240px]:w-3/4 max-[450px]:w-11/12">
@@ -13,7 +13,7 @@ const Service = () => {
       </div>
       <div className="mt-[3rem]">
         <ul className="grid grid-cols-4 gap-5 max-[1090px]:grid-cols-2 max-[640px]:grid-cols-1">
-          <li className="bg-custom-light-orange px-4 py-7 rounded-xl">
+          <li className="bg-custom-light-orange px-4 py-7 rounded-xl hover:outline-orange-500 hover:outline hover:outline-2 hover:-translate-y-2 transition-all ease-in-out duration-200 cursor-pointer">
             <div className="text-center flex flex-col items-center justify-center gap-2">
               <figure className="flex justify-center items-center">
                 <Image
@@ -30,7 +30,7 @@ const Service = () => {
               </p>
             </div>
           </li>
-          <li className="bg-custom-light-orange px-4 py-7 rounded-xl">
+          <li className="bg-custom-light-orange px-4 py-7 rounded-xl hover:outline-orange-500 hover:outline hover:outline-2 hover:-translate-y-2 transition-all ease-in-out duration-200 cursor-pointer">
             <div className="text-center flex flex-col items-center justify-center gap-2">
               <figure className="flex justify-center items-center">
                 <Image
@@ -47,7 +47,7 @@ const Service = () => {
               </p>
             </div>
           </li>
-          <li className="bg-custom-light-orange px-4 py-7 rounded-xl">
+          <li className="bg-custom-light-orange px-4 py-7 rounded-xl hover:outline-orange-500 hover:outline hover:outline-2 hover:-translate-y-2 transition-all ease-in-out duration-200 cursor-pointer">
             <div className="text-center flex flex-col items-center justify-center gap-2">
               <figure className="flex justify-center items-center">
                 <Image
@@ -64,7 +64,7 @@ const Service = () => {
               </p>
             </div>
           </li>
-          <li className="bg-custom-light-orange px-4 py-7 rounded-xl">
+          <li className="bg-custom-light-orange px-4 py-7 rounded-xl hover:outline-orange-500 hover:outline hover:outline-2 hover:-translate-y-2 transition-all ease-in-out duration-200 cursor-pointer">
             <div className="text-center flex flex-col items-center justify-center gap-2">
               <figure className="flex justify-center items-center">
                 <Image

@@ -4,7 +4,7 @@ import ProgressBar from "./ProgressBar";
 
 export const About = () => {
   return (
-    <section className="my-3 px-20 flex max-[1240px]:flex-col max-[1240px]:px-5 items-center justify-around mt-[5rem] gap-8">
+    <section className="my-10 px-20 py-10 flex max-[1240px]:flex-col max-[1240px]:px-5 items-center justify-around mt-[5rem] gap-8">
       <div className="w-2/5 max-[788px]:w-11/12 flex justify-center">
         <figure className="relative ">
           <Image
@@ -16,7 +16,7 @@ export const About = () => {
           <div className="absolute top-[14%] left-[19%] bg-custom-orange opacity-60 w-72 h-16 max-[1240px]:hidden"></div>
         </figure>
       </div>
-      <div className="w-11/12">
+      <div className="w-1/2">
         <h4 className="text-4xl font-semibold">About Me</h4>
         <p className="mt-3 text-xl">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
