@@ -2,7 +2,7 @@
 
 **Mumair** is a responsive and modern portfolio template for UI/UX designers, developed using **Next.js** and **TailwindCSS**. This sleek and stylish portfolio highlights your professional skills, services, and projects in a visually appealing manner, offering an engaging user experience.
 
-![Mumair Portfolio Preview](https://www.youtube.com/watch?v=6AWekPR2q3k) 
+[Mumair Portfolio Preview](https://www.youtube.com/watch?v=6AWekPR2q3k) 
 
 ## ✨ Features
 
