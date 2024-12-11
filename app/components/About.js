@@ -16,7 +16,7 @@ export const About = () => {
           <div className="absolute top-[14%] left-[19%] bg-custom-orange opacity-60 w-72 h-16 max-[1240px]:hidden"></div>
         </figure>
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 max-[1240px]:w-11/12">
         <h4 className="text-4xl font-semibold">About Me</h4>
         <p className="mt-3 text-xl">
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh

@@ -61,7 +61,7 @@ const Portfolio = () => {
         </p>
       </div>
       <div className="mt-[2rem]">
-        <ul className="flex justify-center gap-4 font-medium overflow-x-auto whitespace-nowrap scrollbar-hide">
+        <ul className="flex justify-center gap-4 font-medium overflow-x-auto whitespace-nowrap ">
           {["All", "UX/UI", "Web Design", "App Design", "Graphic Design"].map(
             (category) => (
               <li key={category}>
